@@ -1,6 +1,7 @@
 import sys
 def add_them_all(filename):
     sum = 0
+    ### the file has all abcde numbers
     abcde = open('all.txt','r')
     sum=0
     for all in abcde:
